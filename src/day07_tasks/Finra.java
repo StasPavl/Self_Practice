@@ -7,6 +7,7 @@ public class Finra {
         String result = "";
 
         if (num % 3 == 0 || num % 5 == 0){
+
             if(num % 3 == 0 && num % 5 != 0){
                 result = "FIN";
             } else if (num % 3 != 0 && num % 5 == 0) {

@@ -1,26 +1,26 @@
 package day08_tasks;
 
-public class HTTP {
+ class HTTP {
     public static void main(String[] args) {
         int statusCode = 201;
         String result = "";
 
         System.out.println("Solution 1");
 
-        result = (statusCode == 200) ? "OK":(statusCode == 201) ? "Created":(statusCode == 202) ? "Acepted":(statusCode == 301) ? "Moved Permanently"
-                :(statusCode == 303) ? "See Other":(statusCode == 304) ? "Not Modified":(statusCode == 307) ? "Temporary Redirect"
-                :(statusCode == 400) ? "Bad Request":(statusCode == 401) ? "Unauthorized":(statusCode == 403) ? "Forbidden"
-                :(statusCode == 404) ? "Not Found":(statusCode == 410) ? "Gone":(statusCode == 500) ? "Internal Server Error" :
+        result = (statusCode == 200) ? "OK" : (statusCode == 201) ? "Created" : (statusCode == 202) ? "Acepted" : (statusCode == 301) ? "Moved Permanently"
+                : (statusCode == 303) ? "See Other" : (statusCode == 304) ? "Not Modified" : (statusCode == 307) ? "Temporary Redirect"
+                : (statusCode == 400) ? "Bad Request" : (statusCode == 401) ? "Unauthorized" : (statusCode == 403) ? "Forbidden"
+                : (statusCode == 404) ? "Not Found" : (statusCode == 410) ? "Gone" : (statusCode == 500) ? "Internal Server Error" :
                 (statusCode == 503) ? "Service Unavailable" : "Unknown Error";
 
         System.out.println(result);
         System.out.println("--------------------------");
         System.out.println("Solution 2");
 
-        switch (statusCode){
+        switch (statusCode) {
             case 200:
                 result = "OK";
-                break;
+        break;
             case 201:
                 result = "Created";
                 break;

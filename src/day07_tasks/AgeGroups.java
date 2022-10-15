@@ -9,8 +9,10 @@ public class AgeGroups {
         if (age >=1 && age <= 150){
             if (age< 21){
                 result = "Teenager";
+
             } else if (age >= 21 && age < 55) {
                 result = "Adult";
+
             }else{
                 result = "Senior";
             }

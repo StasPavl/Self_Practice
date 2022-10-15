@@ -3,7 +3,7 @@ package day07_tasks;
 public class CrewAndPassenger {
     public static void main(String[] args) {
 
-        int pplNumber = 66;
+        int pplNumber = 70;
         String result = "";
         int totalOnTheBoat = 0;
 

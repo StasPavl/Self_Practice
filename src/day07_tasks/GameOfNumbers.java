@@ -5,22 +5,21 @@ public class GameOfNumbers {
 
         int alexNum = 15;
 
-        int stasNum = 82;
+        int stasNum = 83;
 
         int total = 0;
+
 
         if (stasNum > 0) {
 
 
             if (stasNum % 2 == 0) {
                 total = alexNum + 5;
-                System.out.println(total);
-
             } else {
                 total = alexNum - 5;
-                System.out.println(total);
             }
 
+            System.out.println(total);
         } else {
             System.out.println("HUYINYA");
         }

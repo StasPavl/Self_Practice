@@ -10,7 +10,7 @@ public class CydeoBatch {
         System.out.println("Solution 1: If Statement");
 
 
-        if (batchType == "US morning" || batchType == "US evening" || batchType == "EU") {
+        if (batchType == "US morning" | batchType == "US evening" | batchType == "EU") {
             if (batchType == "US morning") {
                 result = "Class times are 10-5 EST. M, T, Th, F.";
             } else if (batchType == "US evening") {
