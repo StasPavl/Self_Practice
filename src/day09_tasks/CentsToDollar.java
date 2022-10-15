@@ -14,5 +14,6 @@ public class CentsToDollar {
         int dollars = cents / 100;
 
         System.out.println(cents + " cents equal to: " + dollars + " dollars and " + leftCents + " cents");
+        input.close();
     }
 }
