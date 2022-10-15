@@ -7,6 +7,7 @@ public class SpeedCheck {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your current speed:");
+
         int speedLimit = 55;
         int currentSpeed = input.nextInt();
 
