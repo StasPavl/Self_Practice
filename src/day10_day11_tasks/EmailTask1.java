@@ -3,7 +3,7 @@ package day10_day11_tasks;
 public class EmailTask1 {
     public static void main(String[] args) {
 
-        String email = "stas_pavlovskyi@gmail.com";
+        String email = "mike_tyson@gmail.com";
 
 
         int before_ = email.lastIndexOf('_');
@@ -28,8 +28,17 @@ public class EmailTask1 {
         //separate "_"
         String fourth = email.substring(end4,end5);
 
-
         System.out.println(second + fourth + first + third);
+
+
+
+        //OR ANOTHER OPTION WHICH MUCH FASTER
+        String email1 = email.replace(second,first);
+        String email2 = email1.replaceFirst(first,second);
+        System.out.println(email2);
+
+
+
 
     }
 }
