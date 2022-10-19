@@ -7,8 +7,8 @@ public class TipCalculator {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Split or No Split(Yes/No)");
-        String split = input.next().toLowerCase();
 
+        String split = input.next().toLowerCase();
         String split1 = split.substring(0,1).toUpperCase();
         split = split1 + split.substring(1);
 
