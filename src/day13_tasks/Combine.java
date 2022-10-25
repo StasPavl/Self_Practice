@@ -2,8 +2,8 @@ package day13_tasks;
 
 public class Combine {
         public static void main(String[] args) {
-            String word1 = "one";
-            String word2 = "eight";
+            String word1 = "word";
+            String word2 = "dota";
 
 
             System.out.println(combine(word1,word2));
