@@ -7,7 +7,7 @@ public class FINRA {
 
             if(i%3==0 && i%5==0){
                 System.out.print("FINRA ");
-            } else if (i % 3 == 0) {
+            }else if (i % 3 == 0) {
                 System.out.print("FIN ");
             }else if(i % 5 ==0){
                 System.out.print("RA ");

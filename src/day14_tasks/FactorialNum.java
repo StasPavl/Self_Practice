@@ -7,12 +7,12 @@ public class FactorialNum {
         Scanner input = new Scanner(System.in);
         int userNum = input.nextInt();
 
-        int facNum = 1;
+        int total = 1;
 
         for (int i = userNum; i >1; i--) {
-         facNum *= i;
+         total *= i;
         }
 
-        System.out.println(facNum);
+        System.out.println(total);
     }
 }
