@@ -12,8 +12,9 @@ public class PositiveNegative {
         for (int i = 1; i <= 5; i++) {
             System.out.println("Enter your number");
             int userNum = input.nextInt();
+
             if (userNum > 0){
-                positive ++;
+                positive ++;//positive += 1;
             }else{
                 negative ++;
             }
