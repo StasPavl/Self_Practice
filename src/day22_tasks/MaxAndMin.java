@@ -6,27 +6,31 @@ public class MaxAndMin {
 
         public static void main(String[] args) {
             ArrayList<Integer> list = new ArrayList<>();
-            list.add(6);
-            list.add(2);
-            list.add(8);
-            list.add(4);
+
+            list.add(17);//0
+            list.add(32);//1
+            list.add(31);
+            list.add(40);
             list.add(5);
 
             System.out.println(list);
 
-            int max = list.get(0);//6
-            int min = list.get(0);//6
+            int max = list.get(3);//40
+            int min = list.get(3);//5
 
             for (Integer each : list) {
+                //       40
                 if (each > max) {
                     max = each;//8
                 }
             }
             for (Integer each : list) {
+                //       5
                 if (each < min){
                     min = each;
                 }
             }
+
             System.out.println("min = " + min);
             System.out.println("max = " + max);
         }
