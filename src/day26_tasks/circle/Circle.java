@@ -7,10 +7,10 @@ public class Circle{
 
     public Circle(double radius) {
         this.radius = radius;
-        this.diameter = radius*radius;
+        this.diameter = 2 * radius;
     }
     public double calcArea(){
-        return PI * (diameter);
+        return PI * (radius*radius);
     }
     public double calcPerimeter(){
         return 2 * PI * radius;
