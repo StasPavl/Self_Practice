@@ -28,12 +28,15 @@ public class SortWithOutCollections {
 
                 if (integer < min) {
                     min = integer;
+
+
                 }
+
+
             }
 
             list2.add(min);
         }
-
         System.out.println(list2);
 
 // NEED TO WORK ON IT!!!!!!!!!!!!!!!!!!!!!!!!!!!!
