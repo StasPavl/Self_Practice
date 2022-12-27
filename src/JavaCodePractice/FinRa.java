@@ -4,7 +4,7 @@ public class FinRa {
     // int[] numbers = {1 to 30}
 
 
-    public String finra(int[] numbers) {
+    public static String finra(int[] numbers) {
         String result = "";
 
         for (int each : numbers) {

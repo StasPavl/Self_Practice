@@ -6,6 +6,8 @@ public class TestClass {
         OddAndEven obj = new OddAndEven();
 
         System.out.println(obj.oddOrEven(16));
+        String test = OddAndEven.oddOrEven(15);
+        System.out.println(test);
 
         System.out.println("------------------------------");
 
@@ -20,7 +22,7 @@ public class TestClass {
 
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30};
 
-        String test = obj2.finra(numbers);
+        String test1 = obj2.finra(numbers);
 
         System.out.println(test);
 
