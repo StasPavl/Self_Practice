@@ -35,9 +35,13 @@ public class DivideWithOut {
         }
 
 //                true                  false
-        if (isNegativeDividend || isNegativeDevisor){//step 6 return our result but before we need to check if its negative
+        if (isNegativeDividend && isNegativeDevisor){//step 6 return our result but before we need to check if its negative
+            return result;
+        } else if (isNegativeDividend || isNegativeDevisor){
+
             return -result;
-        }else {
+
+        }else{
             return result;
         }
 
