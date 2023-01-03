@@ -1,0 +1,39 @@
+Hello today im gonna talk about SDLC
+
+so SDLC stands for Software Development Life CYcle
+
+sdlc has 6 steps
+
+so first one is requirement gathering
+
+its when the business team which include PM project manager, PO project owner and BA business Analyst getting detailed 
+requiremnt from client or stake holder.
+so the output of this step is several documents, its market requirment, functional requirment and the more important 
+is Software Requirment Document or SRS
+
+step 2 is Designing
+
+Designers getting all requirments and they createing kind of blue print of the app
+and output of this step is SDS stands from Software Design Specification and app model
+
+step 3 its developing or coding
+
+so from this step, our app start actualy developing 
+developer writing code according SRS and SDS documents
+
+step 4  its Testing
+testers perform software testing based on functional and non functional requirments and if they find any bug in the 
+app they are return back to developers and they are fixing this bug
+and output if this step is bug free software and ready to be releasd app
+
+step 5 is releasing
+
+on this step our app launching to the market
+
+and the last step is maintaing
+ 
+on this step if our end users find some bugs developers trying to fix them
+and also if the client decide improve the software or want to add some new features our Software Development Cycle is launched again.
+in other words all the team members will start from the requirment gathering step again to develop the new features
+
+that is why software development is a cycle
