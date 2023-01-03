@@ -3,7 +3,7 @@ package JavaCodePractice;
 public class ConsecutiveNumber {
 
         public static void main(String[] args) {
-            int N = 24;
+            int N = 30;
 
             for (int i = 1; i <= N; i++) {
 
