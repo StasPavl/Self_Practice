@@ -6,6 +6,10 @@ import java.util.Arrays;
 public class ArrayTest {
     public static void main(String[] args) {
 
+        int[][] num = {{1,2}, { 3,4}};
+        num[1] = num[0];
+        System.out.println(Arrays.toString(num[18]));
+
 
         ArrayList<Integer> list = new ArrayList<>();
 
