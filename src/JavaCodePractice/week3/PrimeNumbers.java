@@ -4,8 +4,8 @@ public class PrimeNumbers{
 
         public static void main(String[] args) {
 
-
-            System.out.println(PrimeNumbers.isPrime(21));
+            System.out.println();
+            System.out.println(PrimeNumbers.isPrime(23));
 
 
         }

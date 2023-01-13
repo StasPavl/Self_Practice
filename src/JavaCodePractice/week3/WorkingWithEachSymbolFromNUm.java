@@ -3,10 +3,10 @@ package JavaCodePractice.week3;
 public class WorkingWithEachSymbolFromNUm {
     public static void main(String[] args) {
 
-        int num = 123;
+        int num = 1123;
 
 
-
+        int th = 0;
         int hundreds = 0;
         int tens = 0;
         int ones = 0;
@@ -15,7 +15,7 @@ public class WorkingWithEachSymbolFromNUm {
         ones = num % 10;//3
 
 //       12 = 123 / 10
-        num = num /10; //12
+        num = num / 10; //12
 
 //       0   = 12  % 10
         tens = num % 10;//2
@@ -26,9 +26,14 @@ public class WorkingWithEachSymbolFromNUm {
 //       0  =  1 % 10
         hundreds = num % 10;
 
+        num = num /10;
+
+        th = num % 10;
+
         System.out.println("ones = " + ones);
         System.out.println("tens = " + tens);
         System.out.println("hundreds = " + hundreds);
+        System.out.println("th = " + th);
 
 
 

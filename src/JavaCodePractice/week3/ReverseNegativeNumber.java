@@ -3,18 +3,24 @@ package JavaCodePractice.week3;
 public class ReverseNegativeNumber {
     public static void main(String[] args) {
 
-        System.out.println(ReverseNegativeNumber.reversedNeg(-122));
+        System.out.println(ReverseNegativeNumber.reverseNeg(-1224));
 
     }
+
     //Solution 1 through String method
-    /*public static int reverseNeg(int num) {
+    public static int reverseNeg(int num) {
+
         boolean isNegative = false;
+
         if (num < 0) {
             num = num * -1;// -12 * -1 = 12
             isNegative = true;
         }
+
         String originalNum = String.valueOf(num);// convert num to string
-        String reversedStringNum = "";
+
+        String reversedStringNum = "";//21
+
         for (int i = originalNum.length() - 1; i >= 0; i--) {
             reversedStringNum += originalNum.charAt(i);
         }
@@ -22,23 +28,24 @@ public class ReverseNegativeNumber {
             return Integer.parseInt(reversedStringNum) / -1; //convert String back to Integer
         }
         return Integer.parseInt(reversedStringNum);
-    }*/
+    }
+}
     //Solution 2
-    public static int reversedNeg(int num){
+    /*public static int reverseNeg(int num){
         boolean isNegative = false;
         if (num < 0){
             num = num * -1; // num *= -1
             isNegative = true;
         }
 
-        int temp = num;// special for out while loop
+        int temp = num;// special for out while loop        12
 
-        int result = 0; //where we gonna add our reversed number
+        int result = 0; //where we gonna add our reversed number      21
 
 
         while (temp != 0){
             result = (result * 10) + (temp % 10) ; // from % operation we getting last digit from our integer NUM
-            temp = temp / 10; // temp /= 10 // 427 => 42 = > 4
+            temp = temp / 10; // temp /= 10 //
         }
         // i++ i--
         if (isNegative){
@@ -46,10 +53,12 @@ public class ReverseNegativeNumber {
         }
         return result;
     }
-}
+}*/
 /*
  int num = -427
+
  num(-427) = num(427)
+
  String num(427)
  reverseString = "724"
  Intger.
