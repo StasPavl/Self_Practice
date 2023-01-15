@@ -2,18 +2,31 @@ package JavaCodePractice.week4;
 
 
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
-    public class RemoveDuplicates {
+public class RemoveDuplicates {
         public static void main(String[] args) {
             String str = "AAABBBCCC";
 
-        }
 
+        }
+        public static String removeDuplicates4(String str){
+            //STREAM method
+            String result ="";
+            String[] arr = str.split("");
+            List<String> list = new ArrayList<>();
+            list.addAll(Arrays.asList(arr));
+
+            list = list.stream().distinct().collect(Collectors.toList());
+            for (String each : list) {
+                result+= each;
+            }
+            return result;
+        }
         public static String removeDuplicates3(String str){
+
+            //StringBuilder METHOD
 
             StringBuilder sb = new StringBuilder();
             sb.append(str.charAt(0));
@@ -28,6 +41,8 @@ import java.util.Set;
         }
         public static String removeDuplicates2(String str){
 
+            //SET METHOD
+
             String[] arr = str.split("");
 
             Set<String> set1 = new HashSet<>();
@@ -41,6 +56,9 @@ import java.util.Set;
             return result;
         }
         public static String removeDuplicates(String str){
+
+            //REGULAR method
+
             String result = "";
 
             for (int i = 0; i < str.length(); i++) {
